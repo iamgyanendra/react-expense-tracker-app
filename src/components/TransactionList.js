@@ -11,7 +11,7 @@ export function TransactionList() {
     return (
         <>
             <h3>History</h3>
-            <ul  class="list">
+            <ul  className="list">
                 {transactions.map(transactions=> ( <Transaction key={transactions.id}  transactions={transactions}/>))}
                 
             </ul>
